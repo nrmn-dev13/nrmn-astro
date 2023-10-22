@@ -1,5 +1,6 @@
 ---
 import ReactComp from '../components/ReactComp'
+const name = 'Hello React'
 ---
 
 <html lang="en">
@@ -12,6 +13,6 @@ import ReactComp from '../components/ReactComp'
 	</head>
 	<body>
 		<h1 class="text-9xl">Astro</h1>
-		<ReactComp client:visible/>
+		<ReactComp client:visible {name}/>
 	</body>
 </html>
