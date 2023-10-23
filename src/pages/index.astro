@@ -1,10 +1,26 @@
 ---
 import MainLayout from "../layout/MainLayout.astro";
 import ReactComp from "../components/ReactComp";
-const name = "Hello React";
 ---
 
 <MainLayout>
-  <h1 class="text-9xl">Astro</h1>
-  <ReactComp client:visible {name} />
+  <ReactComp client:load />
 </MainLayout>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #f0f0f0;
+  }
+</style>

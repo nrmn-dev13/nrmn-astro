@@ -12,7 +12,16 @@
   "dependencies": {
     "@astrojs/react": "^3.0.3",
     "@astrojs/tailwind": "^5.0.2",
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.88.5",
+    "@react-three/fiber": "^8.15.3",
+    "@react-three/postprocessing": "^2.15.6",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
     "astro": "^3.3.2",
-    "tailwindcss": "^3.3.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.3",
+    "three": "^0.157.0"
   }
 }
